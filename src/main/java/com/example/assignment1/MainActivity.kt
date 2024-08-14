@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                        }
                    }"
                } else {
-                   txtResult.text = "Please enter a valid age."
+                   txtResult.text = "Please enter a valid age to validate."
                }
            }
            btnCancel?.setOnClickListener {
