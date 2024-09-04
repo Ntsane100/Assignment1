@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val btnCancel= findViewById<Button>(R.id.btnClear)
         val txtResult= findViewById<TextView>(R.id.txtResult)
            btnGenerate?.setOnClickListener{
+               // Declaring the range of ages
                val age = ageNumber.text.toString().toIntOrNull()
                if (age != null) {
                    val result = when (age) {
